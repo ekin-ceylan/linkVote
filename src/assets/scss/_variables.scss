@@ -1,0 +1,13 @@
+$link: #f7f7f7 !default;
+$point: #ececec !default;
+$vote: #7e7e7e !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+    (
+        'link': $link,
+        'point': $point,
+        'vote': $vote,
+    ),
+    $theme-colors
+);

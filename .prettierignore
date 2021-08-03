@@ -1,0 +1,9 @@
+# prettierOptions: https://prettier.io/docs/en/options.html
+# pugPluginOptions: https://prettier.github.io/plugin-pug/guide/standard-prettier-overrides.html
+
+node_modules/
+dist/
+packages/
+meta/
+anthos/
+okd/
