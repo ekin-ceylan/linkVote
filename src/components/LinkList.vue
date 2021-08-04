@@ -59,10 +59,10 @@ export default {
                 this.$toastr.s('removed.', link.title.toUpperCase());
             });
         },
-        showDeleteConfirm(link) {
+        showDeleteConfirm(title) {
             const h = this.$createElement;
             const p1 = h('p', { class: ['mb-0', 'mt-2', 'text-secondary'] }, 'Do you want to remove:');
-            const p2 = h('p', { class: ['mb-0', 'title'] }, link.title);
+            const p2 = h('p', { class: ['mb-0', 'title'] }, title);
 
             return this.showConfirmModal([p1, p2], 'Remove Link');
         },
